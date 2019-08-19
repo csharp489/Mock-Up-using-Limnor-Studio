@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root type="DrawingPage" objectID="1" ClassID="3259894445" designMode="True" name="Task" guid="991f5c15-cd43-4b24-af5c-c92b7d3165fc" filename="C:\Users\rishabh\OneDrive\Desktop\application\GMerchant\Task.limnor" width0="739" width1="41" width2="79">
+  <Actions>
+    <Action ActionId="501299131" name="Form42.Show1" type="ActionClass">
+      <Property name="ActionMethod">
+        <ObjProperty type="MethodInfoPointer">
+          <Property name="ReturnType2">
+            <LibType type="void" />
+          </Property>
+          <Property name="MethodID">1878592350</Property>
+          <Property name="MemberName">Show</Property>
+          <Property name="Owner" type="ClassInstancePointer">
+            <Data name="Form42" instanceId="11" ClassID="3470528171" />
+          </Property>
+        </ObjProperty>
+      </Property>
+      <Property name="SubScopeId">0</Property>
+      <Property name="ActionId">501299131</Property>
+      <Property name="ScopeRunAt">Unknown</Property>
+      <Property name="AsLocal">False</Property>
+      <Property name="ActionCondition" type="ExpressionValue">
+        <Data hasData="False" />
+      </Property>
+    </Action>
+  </Actions>
+  <EventPath width="704" height="692" type="EventPathData">
+    <Property name="ComponentIconList">
+      <Item type="ComponentIconEvent" ClassID="3259894445" objectID="1">
+        <Location>20, 20</Location>
+        <RelativePosition type="Point" xTo0="True" yTo0="True">-20, 20</RelativePosition>
+      </Item>
+      <Item type="ComponentIconEvent" ClassID="3259894445" objectID="2">
+        <Location>85, 41</Location>
+        <RelativePosition type="Point" xTo0="True" yTo0="True">-20, 20</RelativePosition>
+      </Item>
+      <Item type="ComponentIconEvent" ClassID="3259894445" objectID="3">
+        <Location>63, 116</Location>
+        <RelativePosition type="Point" xTo0="True" yTo0="True">-20, 20</RelativePosition>
+      </Item>
+      <Item type="ComponentIconEvent" ClassID="3259894445" objectID="4">
+        <Location>45, 97</Location>
+        <RelativePosition type="Point" xTo0="True" yTo0="True">-20, 20</RelativePosition>
+      </Item>
+      <Item type="ComponentIconEvent" ClassID="3259894445" objectID="5">
+        <Location>87, 41</Location>
+        <RelativePosition type="Point" xTo0="True" yTo0="True">-20, 20</RelativePosition>
+      </Item>
+      <Item type="ComponentIconEvent" ClassID="3259894445" objectID="6">
+        <Location>117, 68</Location>
+        <RelativePosition type="Point" xTo0="True" yTo0="True">-20, 20</RelativePosition>
+      </Item>
+      <Item type="ComponentIconEvent" ClassID="3259894445" objectID="7">
+        <Location>48, 58</Location>
+        <RelativePosition type="Point" xTo0="True" yTo0="True">-20, 20</RelativePosition>
+      </Item>
+      <Item type="ComponentIconEvent" ClassID="3259894445" objectID="8">
+        <Location>43, 67</Location>
+        <RelativePosition type="Point" xTo0="True" yTo0="True">-20, 20</RelativePosition>
+      </Item>
+      <Item type="ComponentIconEvent" ClassID="3259894445" objectID="9">
+        <Location>89, 42</Location>
+        <RelativePosition type="Point" xTo0="True" yTo0="True">-20, 20</RelativePosition>
+      </Item>
+      <Item type="ComponentIconEvent" ClassID="3259894445" objectID="10">
+        <Location>106, 51</Location>
+        <RelativePosition type="Point" xTo0="True" yTo0="True">-20, 20</RelativePosition>
+        <Events>
+          <Item>
+            <RelativePosition type="Point" xTo0="True" yTo0="True">-20, 20</RelativePosition>
+            <Event type="EventPointer">
+              <Property name="MemberName">Click</Property>
+              <Property name="Owner">
+                <ObjProperty type="MemberComponentId">
+                  <Property name="MemberId">10</Property>
+                  <Property name="ClassId">3259894445</Property>
+                </ObjProperty>
+              </Property>
+            </Event>
+            <Position>
+              <RelativePosition type="Point" xTo0="True" yTo0="True">-20, 20</RelativePosition>
+            </Position>
+            <OutPorts>
+              <Item type="EventPortOutExecuter" portId="3942583551" instanceId="3604455425" relX="-12" relY="5" executerId="11">
+                <Location type="Point">98, 66</Location>
+                <PositionType type="enumPositionType">Circle</PositionType>
+                <Position>0</Position>
+                <LinkedPortID linkedPortIndex="1318565214">2922052535</LinkedPortID>
+                <Label type="DrawingVariable">
+                  <Location type="Point">118, 86</Location>
+                  <Size type="Size">20, 20</Size>
+                  <RelativePosition type="Point" xTo0="True" yTo0="True">20, 20</RelativePosition>
+                  <LabelVisible type="bool">False</LabelVisible>
+                </Label>
+              </Item>
+            </OutPorts>
+          </Item>
+        </Events>
+      </Item>
+      <Item type="ComponentIconEvent" ClassID="3470528171" objectID="11">
+        <Location>82, 119</Location>
+        <RelativePosition type="Point" xTo0="True" yTo0="True">-20, 20</RelativePosition>
+        <TargetPorts>
+          <Item type="EventPortIn" portId="2922052535" instanceId="1318565214" relX="-10" relY="6">
+            <Location type="Point">92, 113</Location>
+            <PositionType type="enumPositionType">Circle</PositionType>
+            <Position>0</Position>
+            <LinkedPortID linkedPortIndex="3604455425">3942583551</LinkedPortID>
+            <Label type="DrawingVariable">
+              <Location type="Point">72, 93</Location>
+              <Size type="Size">20, 20</Size>
+              <RelativePosition type="Point" xTo0="True" yTo0="True">-20, -20</RelativePosition>
+              <LabelVisible type="bool">False</LabelVisible>
+            </Label>
+            <Event type="EventPointer">
+              <Property name="MemberName">Click</Property>
+              <Property name="Owner">
+                <ObjProperty type="MemberComponentId">
+                  <Property name="MemberId">10</Property>
+                  <Property name="ClassId">3259894445</Property>
+                </ObjProperty>
+              </Property>
+            </Event>
+          </Item>
+        </TargetPorts>
+      </Item>
+    </Property>
+  </EventPath>
+  <Types>
+    <Item fullTypeName="System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="DateTimePicker" />
+    <Item fullTypeName="System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="PictureBox" />
+    <Item fullTypeName="System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="CheckBox" />
+  </Types>
+  <HandlerList>
+    <Handler type="EventAction">
+      <Property name="Event">
+        <ObjProperty type="EventPointer">
+          <Property name="MemberName">Click</Property>
+          <Property name="Owner">
+            <ObjProperty type="MemberComponentId">
+              <Property name="MemberId">10</Property>
+              <Property name="ClassId">3259894445</Property>
+            </ObjProperty>
+          </Property>
+        </ObjProperty>
+      </Property>
+      <Property name="TaskIDList">
+        <Item type="TaskID">
+          <Property name="TaskId">4129492969</Property>
+          <Property name="ClassId">3259894445</Property>
+          <Property name="ActionId">501299131</Property>
+        </Item>
+      </Property>
+    </Handler>
+  </HandlerList>
+  <Property name="DrawingLayerList">
+    <Item type="DrawingLayerHeader">
+      <Property name="LayerId">3b977918-7cbb-430c-b01d-731624f07942</Property>
+      <Property name="Name">Layer1</Property>
+    </Item>
+  </Property>
+  <Property name="ClientSize">332, 302</Property>
+  <Property name="Text">Task</Property>
+  <Property name="AutoScaleDimensions">6, 13</Property>
+  <Property name="Name">Task</Property>
+  <Property name="PageAttributes">
+    <Property name="ShowPrintPageEdges">False</Property>
+    <Property name="PrinterDPI_X">96</Property>
+    <Property name="PrinterDPI_Y">96</Property>
+    <Property name="Width">210</Property>
+    <Property name="Height">297</Property>
+  </Property>
+  <Property name="Controls">
+    <Item type="DateTimePicker" objectID="2" designMode="True" name="DateTimePicker1">
+      <Property name="Location">137, -1</Property>
+      <Property name="Name">DateTimePicker1</Property>
+      <Property name="Size">200, 20</Property>
+      <Property name="TabIndex">4</Property>
+    </Item>
+    <Item type="Label" objectID="3" designMode="True" name="Label1">
+      <Property name="Text">   Type Of Task</Property>
+      <Property name="Font">Microsoft Sans Serif, 12pt, style=Bold, Italic</Property>
+      <Property name="ForeColor">Desktop</Property>
+      <Property name="Location">92, 40</Property>
+      <Property name="Name">Label1</Property>
+      <Property name="Size">164, 23</Property>
+      <Property name="TabIndex">0</Property>
+    </Item>
+    <Item type="PictureBox" objectID="4" designMode="True" name="PictureBox3">
+      <Property name="ErrorImage">
+        <Binary resId="a0b3fd6d-bdbd-494b-ba08-3ef13994c552" />
+      </Property>
+      <Property name="ImageLocation">pic1</Property>
+      <Property name="InitialImage">
+        <Binary resId="a0b3fd6d-bdbd-494b-ba08-3ef13994c552" />
+      </Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">1</Property>
+      <Property name="Location">16, 80</Property>
+      <Property name="Name">PictureBox3</Property>
+      <Property name="Size">100, 50</Property>
+    </Item>
+    <Item type="CheckBox" objectID="5" designMode="True" name="CheckBox3">
+      <Property name="Text">Grinding</Property>
+      <Property name="UseVisualStyleBackColor">True</Property>
+      <Property name="Font">Microsoft Sans Serif, 11.25pt, style=Bold, Italic</Property>
+      <Property name="ForeColor">Desktop</Property>
+      <Property name="Location">16, 136</Property>
+      <Property name="Name">CheckBox3</Property>
+      <Property name="Size">104, 24</Property>
+      <Property name="TabIndex">2</Property>
+      <Property name="FlatAppearance" />
+    </Item>
+    <Item type="PictureBox" objectID="6" designMode="True" name="PictureBox2">
+      <Property name="ErrorImage">
+        <Binary resId="3bf3702f-f2c8-46e5-b846-a9dbb24791f0" />
+      </Property>
+      <Property name="ImageLocation">pic3</Property>
+      <Property name="InitialImage">
+        <Binary resId="3bf3702f-f2c8-46e5-b846-a9dbb24791f0" />
+      </Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">1</Property>
+      <Property name="Location">105, 166</Property>
+      <Property name="Name">PictureBox2</Property>
+      <Property name="Size">100, 50</Property>
+    </Item>
+    <Item type="CheckBox" objectID="7" designMode="True" name="CheckBox2">
+      <Property name="Text">Purchase</Property>
+      <Property name="UseVisualStyleBackColor">True</Property>
+      <Property name="Font">Microsoft Sans Serif, 11.25pt, style=Bold, Italic</Property>
+      <Property name="ForeColor">Desktop</Property>
+      <Property name="Location">105, 222</Property>
+      <Property name="Name">CheckBox2</Property>
+      <Property name="Size">104, 24</Property>
+      <Property name="TabIndex">2</Property>
+      <Property name="FlatAppearance" />
+    </Item>
+    <Item type="PictureBox" objectID="8" designMode="True" name="PictureBox1">
+      <Property name="ErrorImage">
+        <Binary resId="c5dd671d-3f83-4807-a10f-48b8f82665df" />
+      </Property>
+      <Property name="ImageLocation">pic2</Property>
+      <Property name="InitialImage">
+        <Binary resId="c5dd671d-3f83-4807-a10f-48b8f82665df" />
+      </Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">1</Property>
+      <Property name="Location">185, 80</Property>
+      <Property name="Name">PictureBox1</Property>
+      <Property name="Size">100, 50</Property>
+    </Item>
+    <Item type="CheckBox" objectID="9" designMode="True" name="CheckBox1">
+      <Property name="Text">Cutting</Property>
+      <Property name="UseVisualStyleBackColor">True</Property>
+      <Property name="Font">Microsoft Sans Serif, 11.25pt, style=Bold, Italic</Property>
+      <Property name="ForeColor">Desktop</Property>
+      <Property name="Location">185, 136</Property>
+      <Property name="Name">CheckBox1</Property>
+      <Property name="Size">104, 24</Property>
+      <Property name="TabIndex">2</Property>
+      <Property name="FlatAppearance" />
+    </Item>
+    <Item type="Button" objectID="10" designMode="True" name="Button1">
+      <Property name="Text">Save and Next</Property>
+      <Property name="UseVisualStyleBackColor">True</Property>
+      <Property name="Font">Microsoft Sans Serif, 11.25pt, style=Bold, Italic</Property>
+      <Property name="Location">92, 267</Property>
+      <Property name="Name">Button1</Property>
+      <Property name="Size">138, 23</Property>
+      <Property name="TabIndex">5</Property>
+      <Property name="FlatAppearance" />
+    </Item>
+  </Property>
+  <Object type="VPL.XClass`1[[DrawingPage]]" objectID="11" designMode="True" name="Form42">
+    <Property name="Name">Form42</Property>
+    <Property name="UserLevel">0</Property>
+    <Property name="Text">DrawingPage</Property>
+    <Property name="Visible">False</Property>
+    <Property name="PageAttributes">
+      <Property name="ShowPrintPageEdges">False</Property>
+      <Property name="PrinterDPI_X">96</Property>
+      <Property name="PrinterDPI_Y">96</Property>
+      <Property name="Width">210</Property>
+      <Property name="Height">297</Property>
+    </Property>
+  </Object>
+  <External type="TypePointerCollection">
+    <Type type="MessageBox" />
+  </External>
+  <ClassRef name="Form42" instanceId="11" ClassID="3470528171" />
+</Root>

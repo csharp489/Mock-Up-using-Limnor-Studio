@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root type="LimnorWinApp" objectID="1" ClassID="1" designMode="True" name="WinFormApp1" isPermanent="true" static="true" guid="ca8aa87c-7a2a-4d28-b9d5-041427aab15c">
+  <Property name="Name">WinFormApp1</Property>
+  <Property name="StartClassId">2</Property>
+  <PropertyList>
+    <Item memberId="1935350022" type="PropertyClass">
+      <Property name="AccessControl">Public</Property>
+      <Property name="IsAbstract">False</Property>
+      <Property name="IsFinal">False</Property>
+      <Property name="IsStatic">True</Property>
+      <Property name="Name">CommandArguments</Property>
+      <Property name="PropertyType" type="DataTypePointer">
+        <Data type="DataTypePointer">
+          <Type type="TypePointer">
+            <Property name="ClassType">
+              <LibType type="String[]" />
+            </Property>
+          </Type>
+        </Data>
+      </Property>
+      <Property name="Setter">
+        <Data type="SetterClass">
+          <Property name="IsStatic">True</Property>
+          <Property name="AccessControl">Public</Property>
+          <Property name="IsAbstract">False</Property>
+          <Property name="GroupFinished">False</Property>
+          <Property name="EditorBounds">0, 0, 0, 0</Property>
+          <Property name="ViewerWidth">0</Property>
+          <Property name="ViewerHeight">0</Property>
+          <Property name="IconsHolderWidth">0</Property>
+          <Property name="IsFinal">False</Property>
+          <Property name="Description">This is the method passing the value to the property when SetProperty actions is executed</Property>
+          <Property name="ActionList">
+            <Item type="AB_SingleAction">
+              <Property name="IconLayout">Left</Property>
+              <Property name="ShowText">True</Property>
+              <Property name="ActionId">
+                <ObjProperty type="TaskID">
+                  <Property name="TaskId">2428773823</Property>
+                  <Property name="ClassId">1</Property>
+                  <Property name="ActionId">2270828444</Property>
+                  <Property name="BreakAsEventAction">False</Property>
+                </ObjProperty>
+              </Property>
+              <Property name="IsEntryAction">False</Property>
+              <Property name="IsMainThread">False</Property>
+              <Property name="BreakBeforeExecute">False</Property>
+              <Property name="BreakAfterExecute">False</Property>
+              <Property name="OutPortList">
+                <Item type="ActionPortOut" portId="2031718914" instanceId="4267992061">
+                  <Location type="Point">0, 0</Location>
+                  <PositionType type="enumPositionType">Bottom</PositionType>
+                  <Position>110</Position>
+                  <LinkedPortID linkedPortIndex="0">0</LinkedPortID>
+                  <Label type="DrawingVariable">
+                    <Location type="Point">0, 0</Location>
+                    <Size type="Size">20, 20</Size>
+                    <RelativePosition type="Point" xTo0="True" yTo0="True">20, 20</RelativePosition>
+                    <LabelVisible type="bool">False</LabelVisible>
+                  </Label>
+                </Item>
+              </Property>
+              <Property name="InPortList">
+                <Item type="ActionPortIn" portId="2531459740" instanceId="1137882349">
+                  <Location type="Point">0, 0</Location>
+                  <PositionType type="enumPositionType">Top</PositionType>
+                  <Position>110</Position>
+                  <LinkedPortID linkedPortIndex="0">0</LinkedPortID>
+                  <Label type="DrawingVariable">
+                    <Location type="Point">0, 0</Location>
+                    <Size type="Size">20, 20</Size>
+                    <RelativePosition type="Point" xTo0="True" yTo0="True">-20, -20</RelativePosition>
+                    <LabelVisible type="bool">False</LabelVisible>
+                  </Label>
+                </Item>
+              </Property>
+              <Property name="BranchId">1186689029</Property>
+              <Property name="Name">Action1</Property>
+              <Property name="EditorBounds">0, 0, 0, 0</Property>
+              <Property name="Location">100, 100</Property>
+              <Property name="Size">230, 30</Property>
+              <Property name="TextFont">Times New Roman, 12pt</Property>
+              <Property name="TextColor">Black</Property>
+            </Item>
+          </Property>
+          <Property name="MemberId">588007393</Property>
+          <Property name="Name">SetProperty1</Property>
+          <Property name="Owner" type="ClassPointer">
+            <Data ClassID="1" objectID="1" BaseClassId="0" />
+          </Property>
+        </Data>
+      </Property>
+      <Property name="Getter">
+        <Data type="GetterClass">
+          <Property name="IsStatic">True</Property>
+          <Property name="AccessControl">Public</Property>
+          <Property name="IsAbstract">False</Property>
+          <Property name="GroupFinished">False</Property>
+          <Property name="EditorBounds">264, 166, 751, 467</Property>
+          <Property name="ViewerWidth">503</Property>
+          <Property name="ViewerHeight">86</Property>
+          <Property name="IconsHolderWidth">103</Property>
+          <Property name="IsFinal">False</Property>
+          <Property name="Description">This is a method to return the value of the property when this property is used as a parameter in actions.</Property>
+          <Property name="ActionList">
+            <Item type="AB_ActionString">
+              <Property name="JumpToStringId">0</Property>
+              <Property name="ActionList">
+                <Item type="AB_MethodReturn">
+                  <Property name="IconLayout">Left</Property>
+                  <Property name="ShowText">True</Property>
+                  <Property name="ActionId">
+                    <ObjProperty type="TaskID">
+                      <Property name="TaskId">1340320771</Property>
+                      <Property name="ClassId">1</Property>
+                      <Property name="ActionId">2829957745</Property>
+                      <Property name="BreakAsEventAction">False</Property>
+                    </ObjProperty>
+                  </Property>
+                  <Property name="IsEntryAction">False</Property>
+                  <Property name="IsMainThread">False</Property>
+                  <Property name="BreakBeforeExecute">False</Property>
+                  <Property name="BreakAfterExecute">False</Property>
+                  <Property name="InPortList">
+                    <Item type="ActionPortIn" portId="350852411" instanceId="1537091338">
+                      <Location type="Point">167, 94</Location>
+                      <PositionType type="enumPositionType">Top</PositionType>
+                      <Position>88</Position>
+                      <LinkedPortID linkedPortIndex="0">0</LinkedPortID>
+                      <Label type="DrawingVariable">
+                        <Location type="Point">147, 74</Location>
+                        <Size type="Size">20, 20</Size>
+                        <RelativePosition type="Point" xTo0="True" yTo0="True">-20, -20</RelativePosition>
+                        <LabelVisible type="bool">False</LabelVisible>
+                      </Label>
+                    </Item>
+                  </Property>
+                  <Property name="BranchId">3644334230</Property>
+                  <Property name="Name">return property value for Property1</Property>
+                  <Property name="EditorBounds">0, 0, 0, 0</Property>
+                  <Property name="Location">79, 105</Property>
+                  <Property name="Size">187, 39</Property>
+                  <Property name="TextFont">Times New Roman, 12pt</Property>
+                  <Property name="TextColor">Black</Property>
+                </Item>
+              </Property>
+              <Property name="IsEntryAction">False</Property>
+              <Property name="IsMainThread">False</Property>
+              <Property name="BreakBeforeExecute">False</Property>
+              <Property name="BreakAfterExecute">False</Property>
+              <Property name="BranchId">2410323159</Property>
+              <Property name="Name">Action1</Property>
+              <Property name="EditorBounds">0, 0, 0, 0</Property>
+              <Property name="Location">0, 0</Property>
+              <Property name="Size">0, 0</Property>
+              <Property name="TextFont">Times New Roman, 12pt</Property>
+              <Property name="TextColor">Black</Property>
+            </Item>
+          </Property>
+          <Property name="MemberId">1643963416</Property>
+          <Property name="Name">GetProperty1</Property>
+          <Property name="ComponentIconList">
+            <Item type="ComponentIconPublic" ClassID="1" objectID="1">
+              <Location>10, 30</Location>
+              <RelativePosition type="Point" xTo0="True" yTo0="True">20, 20</RelativePosition>
+            </Item>
+          </Property>
+          <Property name="Owner" type="ClassPointer">
+            <Data ClassID="1" objectID="1" BaseClassId="0" />
+          </Property>
+        </Data>
+      </Property>
+      <Property name="CanRead">True</Property>
+      <Property name="CanWrite">False</Property>
+      <Property name="MemberId">1935350022</Property>
+      <Property name="Description">Command line arguments</Property>
+    </Item>
+  </PropertyList>
+  <Actions>
+    <Action ActionId="2829957745" name="return property value for CommandArguments" type="ActionClass" scopeId="1643963416">
+      <Property name="ActionMethod" type="MethodReturnMethod">
+        <Data />
+      </Property>
+      <Property name="ActionId">2829957745</Property>
+      <Property name="AsLocal">True</Property>
+      <Property name="ParameterValues">
+        <Item type="ParameterValue" name="value" valueId="2846973762" valueType="MathExpression">
+          <Value type="MathNodeRoot" name="value" fixed="False" editorRect="332,191,616,417">
+            <Description>
+            </Description>
+            <ShortDesc>
+            </ShortDesc>
+            <IconImage>
+              <IconType type="EnumIconType">ItemImage</IconType>
+              <IconSize type="Size">32, 32</IconSize>
+              <TextAttributes>
+                <Font type="Font">Times New Roman, 12pt</Font>
+                <TextColor type="Color">Blue</TextColor>
+                <BackColor type="Color">White</BackColor>
+              </TextAttributes>
+            </IconImage>
+            <Position type="Point">0, 0</Position>
+            <Font type="Font">Times New Roman, 12pt</Font>
+            <SuperscriptFont type="Font">Times New Roman, 8pt</SuperscriptFont>
+            <Inport type="MathNodeVariableDummy" name="dummy" subscript="" asInport="False" ID="2322006841">
+              <ValueType type="RaisDataType">
+                <LibType type="double" />
+                <Description>
+                </Description>
+              </ValueType>
+              <Port type="LinkLineNodeInPort" portId="1879425513" instanceId="1097245755">
+                <Location type="Point">0, 0</Location>
+                <PositionType type="enumPositionType">Top</PositionType>
+                <Position>0</Position>
+                <LinkedPortID linkedPortIndex="0">0</LinkedPortID>
+                <Label type="DrawingVariable">
+                  <Location type="Point">0, 0</Location>
+                  <Size type="Size">20, 20</Size>
+                  <RelativePosition type="Point" xTo0="True" yTo0="True">-20, -20</RelativePosition>
+                  <LabelVisible type="bool">False</LabelVisible>
+                </Label>
+              </Port>
+            </Inport>
+            <Math type="MathNodeVariable" name="X" subscript="" asInport="False" ID="1296607838">
+              <ValueType type="RaisDataType">
+                <LibType type="String[]" />
+                <Description>
+                </Description>
+              </ValueType>
+            </Math>
+            <Math type="MathNodeMethodPointer">
+              <Method type="MethodInfoPointer">
+                <Property name="MethodID">2653863381</Property>
+                <Property name="MemberName">GetCommandLineArgs</Property>
+                <Property name="Owner" type="DataTypePointer">
+                  <Data type="DataTypePointer">
+                    <Type type="TypePointer">
+                      <Property name="ClassType">
+                        <LibType type="Environment" />
+                      </Property>
+                    </Type>
+                  </Data>
+                </Property>
+              </Method>
+            </Math>
+            <VarMap />
+          </Value>
+        </Item>
+      </Property>
+      <Property name="BreakBeforeExecute">False</Property>
+      <Property name="BreakAfterExecute">False</Property>
+      <Property name="ActionCondition" type="ExpressionValue">
+        <Data hasData="False" />
+      </Property>
+    </Action>
+  </Actions>
+  <External type="TypePointerCollection">
+    <Type type="MessageBox" />
+    <Type type="Environment" />
+  </External>
+</Root>

@@ -1,0 +1,61 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask TaskName="Build" AssemblyFile="$(MSBuildExtensionsPath)\Longflow\LimnorVP\1.0\LimnorBuild.dll" />
+  <UsingTask TaskName="ReBuild" AssemblyFile="$(MSBuildExtensionsPath)\Longflow\LimnorVP\1.0\LimnorBuild.dll" />
+  <UsingTask TaskName="Clean" AssemblyFile="$(MSBuildExtensionsPath)\Longflow\LimnorVP\1.0\LimnorBuild.dll" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ea41096e-d799-4138-add7-2f1c8afba873}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DefaultNamespace</RootNamespace>
+    <AssemblyName>GMerchant</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <MainFile>WinApp.limnor</MainFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <WarningLevel>4</WarningLevel>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+    <WarningLevel>4</WarningLevel>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="WinApp.limnor">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Form1.limnor">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Form2.limnor">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Form3.limnor">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Task.limnor">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Form4.limnor">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Form5.limnor">
+      <SubType>Code</SubType>
+    </Content>
+  </ItemGroup>
+  <Target Name="Build">
+    <Build BuildExpPath="$(MSBuildExtensionsPath)" MSBuildAllProjects="$(MSBuildAllProjects)" MainFile="$(MainFile)" MSBuildBinPath="$(MSBuildBinPath)" OutputType="$(OutputType)" MSBuildProjectDirectory="$(MSBuildProjectDirectory)" CoreCompileDependsOn="$(CoreCompileDependsOn)" RootNamespace="$(RootNamespace)" Configuration="$(Configuration)" OutputPath="$(OutputPath)" PlatformTarget="$(PlatformTarget)" AssemblyTitle="$(AssemblyTitle)" AssemblyDescription="$(AssemblyDescription)" AssemblyCompany="$(AssemblyCompany)" AssemblyProduct="$(AssemblyProduct)" AssemblyCopyright="$(AssemblyCopyright)" AssemblyVersion="$(AssemblyVersion)" AssemblyFileVersion="$(AssemblyFileVersion)" />
+  </Target>
+  <Target Name="ReBuild">
+    <Build BuildExpPath="$(MSBuildExtensionsPath)" MSBuildAllProjects="$(MSBuildAllProjects)" MainFile="$(MainFile)" MSBuildBinPath="$(MSBuildBinPath)" OutputType="$(OutputType)" MSBuildProjectDirectory="$(MSBuildProjectDirectory)" CoreCompileDependsOn="$(CoreCompileDependsOn)" RootNamespace="$(RootNamespace)" Configuration="$(Configuration)" OutputPath="$(OutputPath)" PlatformTarget="$(PlatformTarget)" AssemblyTitle="$(AssemblyTitle)" AssemblyDescription="$(AssemblyDescription)" AssemblyCompany="$(AssemblyCompany)" AssemblyProduct="$(AssemblyProduct)" AssemblyCopyright="$(AssemblyCopyright)" AssemblyVersion="$(AssemblyVersion)" AssemblyFileVersion="$(AssemblyFileVersion)" />
+  </Target>
+  <Target Name="Clean">
+    <Clean BuildExpPath="$(MSBuildExtensionsPath)" MSBuildAllProjects="$(MSBuildAllProjects)" MainFile="$(MainFile)" MSBuildBinPath="$(MSBuildBinPath)" OutputType="$(OutputType)" MSBuildProjectDirectory="$(MSBuildProjectDirectory)" CoreCompileDependsOn="$(CoreCompileDependsOn)" RootNamespace="$(RootNamespace)" Configuration="$(Configuration)" OutputPath="$(OutputPath)" PlatformTarget="$(PlatformTarget)" AssemblyTitle="$(AssemblyTitle)" AssemblyDescription="$(AssemblyDescription)" AssemblyCompany="$(AssemblyCompany)" AssemblyProduct="$(AssemblyProduct)" AssemblyCopyright="$(AssemblyCopyright)" AssemblyVersion="$(AssemblyVersion)" AssemblyFileVersion="$(AssemblyFileVersion)" />
+  </Target>
+</Project>
